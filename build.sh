@@ -1,6 +1,6 @@
 build-clean(){
-  rm -rf  ./development/*
-  rm -rf ./production/*
+  rm -rf  ./development/*.js
+  rm -rf ./production/*.js
 }
 
 # Inject PORT NUMBER HERE
