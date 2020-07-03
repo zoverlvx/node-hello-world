@@ -1,6 +1,6 @@
 const http = require("http");
 // user-defined port
-const PORT = 4000;
+const PORT = process.env.PORT;
 
 http.createServer(function (req, res) {
 	// Send the HTTP header
